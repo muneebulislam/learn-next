@@ -5,11 +5,6 @@ export default async function UsersPage() {
     const usersData =  getAllUsers();
     const users = await usersData;
     const usersContent = <section>
-        <h2>
-            <Link href="/">Go Home</Link>
-        </h2>
-
-        <br/>
        {users.map(user =>{
         return <>
 

@@ -6,7 +6,6 @@ export const metadata = {
 export default function UsersLayout({ children }) {
   return (
     <>
-    <nav>Users nav</nav>
     <main>
         {children}
     </main>

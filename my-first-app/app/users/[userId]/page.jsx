@@ -47,15 +47,4 @@ export default async function UserPage({params:{userId}}) {
   )
 }
 
-// export async function generateStaticParams(){
-//   const userData = getAllUsers();
-//   const users = await userData
-//   return (
-//     <>
-//     {users.map(user =>{
-//       {userId: user.id.toString()}
-//     })}
-//     </>
-//   )
 
-// }
